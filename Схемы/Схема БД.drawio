@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T04:08:51.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="2eSIFq0zmGAhNZJvBl0N" version="21.1.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-04-29T18:08:21.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hgZpeQs96rSD8ztrh1Ke" version="21.2.3" type="device">
   <diagram name="Страница 1" id="3yox5P6LXDv1PHqHLUEU">
-    <mxGraphModel dx="1981" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3133" dy="2016" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -329,7 +329,7 @@
           <mxGeometry y="274" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zYMpkRdm6IUNbibokJmv-53" value="Дисциплина" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=left;fontSize=14;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="2895" y="-545" width="220" height="216" as="geometry" />
+          <mxGeometry x="2895" y="-545" width="220" height="246" as="geometry" />
         </mxCell>
         <mxCell id="zYMpkRdm6IUNbibokJmv-54" value="Код дисциплина (PK)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=0" parent="zYMpkRdm6IUNbibokJmv-53" vertex="1">
           <mxGeometry y="26" width="220" height="30" as="geometry" />
@@ -351,6 +351,9 @@
         </mxCell>
         <mxCell id="zYMpkRdm6IUNbibokJmv-58" value="Количество часов лекций в семестр" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zYMpkRdm6IUNbibokJmv-53" vertex="1">
           <mxGeometry y="186" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tIrRdky46-JL94S34NFz-1" value="Ссылки на мудл" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="zYMpkRdm6IUNbibokJmv-53" vertex="1">
+          <mxGeometry y="216" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zYMpkRdm6IUNbibokJmv-61" value="Преподаватель - Назначение пары" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=3;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="2230" y="-142" width="237" height="80" as="geometry">
@@ -705,7 +708,7 @@
         <mxCell id="9YhIO5kI3QUhicdMS5tW-6" value="Вопрос, не получается в табл &quot;Назначение на пару&quot; сделать FK таблицу группа студентов" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2590" y="-419" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oYeoJ9gqUt87JPOSU6Th-1" value="Развязка такая, что мы потов будет сортировать из добавочной сущности. Тип из Назначение на пару выбираем все id&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oYeoJ9gqUt87JPOSU6Th-1" value="Развязка такая, что мы потов будет сортировать из добавочной сущности. Тип из Назначение на пару выбираем все id&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2281" y="-693" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
